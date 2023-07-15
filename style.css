@@ -1,0 +1,409 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  background-color: #f5f5f5;
+}
+.navbar,
+.homeSection,
+.urlShortenSection,
+.statisticSection {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.nav-link {
+  padding: 20px 10px;
+}
+.nav-link,
+.homeDetails p,
+.statisticSection p {
+  color: hsl(257, 7%, 63%);
+}
+.nav-link:hover {
+  color: #000;
+}
+.navbar-brand,
+.boostSection h1,
+footer h1 {
+  font-size: 2rem;
+}
+.navbar-brand,
+footer h1 {
+  font-weight: 700;
+}
+.navbar button:hover,
+.navbar button:active,
+.homeDetails button,
+.boostSection button,
+.urlShortenBtn,
+.copyLink,
+.inputLink,
+.linkResult {
+  outline: none;
+}
+.navbar button:hover,
+.navbar button:active,
+.homeDetails button,
+.boostSection button,
+.inputLink,
+.linkResult,
+.urlShortenBtn,
+.copyLink,
+.card {
+  border: none;
+}
+.navbar button:hover,
+.navbar button:active {
+  border-radius: 20px;
+}
+.navbar button:hover,
+.navbar button:active,
+.homeDetails button,
+.boostSection button,
+.urlShortenBtn,
+.copyLink,
+.boostSection h1,
+.attribution,
+footer {
+  color: #fff;
+}
+.navbar button:hover,
+.navbar button:active,
+.homeDetails button,
+.boostSection button,
+.urlShortenBtn,
+.copyLink,
+.line {
+  background-color: hsl(180, 66%, 49%);
+}
+.homeSection,
+.urlShortenSection,
+.statisticSection,
+.boostSection,
+.cards {
+  margin-top: 5%;
+}
+.homeSection,
+.linkInputDiv,
+.results,
+.cards {
+  align-items: center;
+}
+.homeDetails {
+  margin-right: -20%;
+}
+.homeDetails h1 {
+  font-size: 5.5rem;
+}
+.homeDetails h1,
+.statisticSection h1,
+.card-title,
+.boostSection h1 {
+  font-weight: bold;
+}
+.homeDetails p {
+  padding: 10px 0;
+  width: 80%;
+  font-size: 18px;
+}
+.homeImg img {
+  margin-left: 30%;
+  width: 900px;
+  height: 550px;
+}
+.homeDetails button,
+.boostSection button {
+  border-radius: 30px;
+  font-size: 20px;
+  padding: 10px 30px;
+}
+.linkInputDiv,
+.boostSection {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.linkInputDiv,
+.card .cardImgDiv,
+.boostSection {
+  background-color: hsl(257, 27%, 26%);
+}
+.linkInputDiv {
+  background-image: url(images/bg-shorten-desktop.svg);
+  height: 150px;
+}
+.linkInputDiv,
+.inputLink,
+.linkResult,
+.urlShortenBtn,
+.copyLink,
+.results {
+  border-radius: 10px;
+}
+.inputLink,
+.linkResult,
+.urlShortenBtn,
+.copyLink {
+  height: 50px;
+}
+.inputLink,
+.linkResult,
+.urlShortenBtn,
+.copyLink,
+.results,
+.card .cardImgDiv {
+  padding: 10px;
+}
+.inputLink,
+.linkResult {
+  width: 50%;
+  margin-right: 2%;
+}
+.urlShortenBtn,
+.copyLink {
+  width: 15%;
+}
+.results {
+  background-color: #fff;
+  display: none;
+}
+.statisticSection,
+.card .cardImgDiv,
+.boostSection,
+.attribution {
+  text-align: center;
+}
+.statisticSection h1 {
+  font-size: 3rem;
+}
+.statisticSection p {
+  padding: 10px 0px;
+}
+.card .cardImgDiv {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  position: absolute;
+  top: -40px;
+}
+.cards,
+.linkInputDiv,
+.results {
+  justify-content: center;
+}
+.card {
+  padding: 10px 20px;
+  text-align: left;
+}
+.card img {
+  height: 40px;
+  width: 40px;
+}
+.card-title {
+  padding-top: 30px;
+}
+.line {
+  height: 5px;
+  width: 20px;
+}
+.card1,
+.results {
+  margin-top: 2%;
+}
+.card2 {
+  margin-top: 8%;
+}
+.card3 {
+  margin-top: 12%;
+}
+.boostSection {
+  background-image: url(images/bg-boost-desktop.svg);
+  padding: 60px 0;
+}
+.boostSection h1 {
+  padding-bottom: 20px;
+}
+.attribution {
+  font-size: 11px;
+}
+.attribution,
+footer {
+  background-color: hsl(260, 8%, 14%);
+}
+.attribution a {
+  color: hsl(180, 66%, 49%);
+}
+footer {
+  padding-left: 20%;
+}
+footer .nav-link {
+  color: #fff !important;
+}
+footer h1 {
+  margin-left: 0%;
+}
+footer .nav-item a:hover {
+  color: hsl(180, 66%, 49%) !important;
+}
+footer .nav-item img,
+.nav-link:hover {
+  cursor: pointer;
+}
+footer .nav-link {
+  color: hsl(257, 7%, 63%) !important;
+  font-size: 16px;
+}
+.navbar-toggler,
+.navbar-toggler:active,
+.navbar-toggler:hover {
+  outline: none !important;
+  border: none !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+.mobile-form {
+  display: none !important;
+}
+/* Media queries */
+@media only screen and (max-width: 1024px) {
+  .navbar,
+  .homeSection,
+  .urlShortenSection,
+  .statisticSection {
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+  .homeImg img {
+    width: 600px;
+    height: 400px;
+  }
+  .homeDetails h1 {
+    font-size: 4rem;
+  }
+  footer {
+    padding-left: 1%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  html,
+  body {
+    width: auto !important;
+    overflow-x: hidden !important;
+  }
+  .navbar-nav {
+    background-color: hsl(257, 27%, 26%);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 5%;
+  }
+  .desktop-form {
+    display: none !important;
+  }
+  .mobile-form {
+    display: flex !important;
+    flex-direction: column;
+  }
+  .mobile-form button {
+    color: hsl(257, 7%, 63%);
+    padding: 20px 10px;
+  }
+  .mobile-form button:hover {
+    color: #fff !important;
+    background-color: hsl(180, 66%, 49%) !important;
+  }
+  .homeImg img {
+    width: 500px;
+    height: 300px;
+  }
+  .homeDetails h1 {
+    font-size: 2.5rem;
+  }
+  .inputLink,
+  .linkResult {
+    width: 60%;
+  }
+  .urlShortenBtn,
+  .copyLink {
+    width: 25%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .homeSection {
+    flex-flow: column;
+  }
+  .homeDetails {
+    order: 2;
+    margin-top: 3%;
+  }
+  .homeImg img {
+    width: max-content;
+    margin-left: 15%;
+  }
+  .homeDetails p {
+    width: 100%;
+  }
+  .urlShortenSection,
+  .statisticSection {
+    margin-top: 15%;
+  }
+  .linkInputDiv,
+  .cards,
+  .results {
+    flex-direction: column;
+  }
+  .inputLink,
+  .linkResult,
+  .homeDetails {
+    margin-right: 0;
+  }
+  .inputLink,
+  .linkResult {
+    margin-bottom: 2%;
+  }
+  .inputLink,
+  .linkResult,
+  .urlShortenBtn,
+  .copyLink {
+    width: 80%;
+  }
+  .card,
+  .homeDetails,
+  footer {
+    text-align: center;
+  }
+  .cardImgDiv {
+    margin-left: 30%;
+  }
+  .cards {
+    margin-top: 15%;
+  }
+  .card1,
+  .card2,
+  .card3 {
+    margin-top: 0;
+  }
+  .line {
+    width: 5px;
+    height: 80px;
+  }
+  footer .socials {
+    margin-left: 30%;
+  }
+  .boostSection {
+    background-image: url(images/bg-boost-mobile.svg);
+  }
+  .linkInputDiv {
+    background-image: url(images/bg-shorten-mobile.svg);
+  }
+}
+@media only screen and (max-width: 375px) {
+  footer .socials {
+    margin-left: 28%;
+  }
+}
