@@ -4,16 +4,9 @@ This is a solution to the [Shortly URL shortening API Challenge challenge on Fro
 
 ## Table of contents
 
-
-  - [Screenshot](#screenshot)
   - [Links](#links)
   - [Built with](#built-with)
 - [Author](#author)
-
-
-### Screenshot
-
-![](screenshot.png)
 
 
 ### Links
