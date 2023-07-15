@@ -13,7 +13,7 @@ This is a solution to the [Shortly URL shortening API Challenge challenge on Fro
 
 ### Screenshot
 
-![](./images/screenshot.png)
+![](./screenshot.png)
 
 
 ### Links
