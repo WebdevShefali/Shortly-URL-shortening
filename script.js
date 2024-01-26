@@ -4,8 +4,11 @@ const results = document.querySelector(".results");
 
 urlShortenBtn.addEventListener("click", async () => {
   const inputLinkValue = document.querySelector(".inputLink").value;
-  const url = "https://api.shrtco.de/v2/shorten?url=" + inputLinkValue;
-  const data = await fetch(url);
+  const url = "https://is.gd/create.php?format=simple&url=" + inputLinkValue;
+  const data = await fetch(url,{
+    method : "GET",
+    mode: 'cors'
+});
   const parsedData = await data.json();
   displayShortenLink.value= parsedData.result.full_short_link;
   results.style.display = "flex";
